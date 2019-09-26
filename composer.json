@@ -9,7 +9,7 @@
         { "name": "Pieter Pelgrims" }
     ],
     "require": {
-        "php": "^5.4 || ^7.3",
+        "php": ">=5.4",
         "nesbot/carbon": "~1.0|~2.0"
     },
     "require-dev": {
