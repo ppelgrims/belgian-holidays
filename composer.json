@@ -1,0 +1,35 @@
+{
+    "name": "ppelgrims/belgian-holidays",
+    "description": "Carbon Mixing",
+    "homepage": "https://github.com/ppelgrims/belgian-holidays",
+    "keywords": ["carbon", "mixing", "belgian", "holidays", "holiday", "school holiday"],
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        { "name": "Pieter Pelgrims" }
+    ],
+    "require": {
+        "php": "^5.4 || ^7.3",
+        "nesbot/carbon": "~1.0|~2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "squizlabs/php_codesniffer": "^2.0",
+        "ext-intl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BelgianHolidays\\": "src/BelgianHolidays/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "phpcs": "vendor/bin/phpcs --standard=PSR2 -n",
+        "phpcbf": "vendor/bin/phpcbf --standard=PSR2 -n",
+        "phpunit": "phpunit --colors=always --verbose"
+    }
+}
