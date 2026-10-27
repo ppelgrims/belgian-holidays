@@ -3,7 +3,6 @@
     "description": "Carbon Mixing",
     "homepage": "https://github.com/ppelgrims/belgian-holidays",
     "keywords": ["carbon", "mixing", "belgian", "holidays", "holiday", "school holiday"],
-    "version": "1.0.1",
     "license": "MIT",
     "authors": [
         { "name": "Pieter Pelgrims" }
